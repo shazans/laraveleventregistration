@@ -1,0 +1,108 @@
+ /* Add styles to the form container */
+  /* Button used to open the contact form - fixed at the bottom of the page */
+  .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid black;
+    z-index:1000;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color:white;
+    border:1px solid black;
+    }
+  
+
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
+
+
+.forms{
+    margin:auto;
+    max-width:80%;
+    text-align:center;
+    }
+
+
+.formsCmb{
+        margin:auto;
+        max-width:50%;
+        text-align:center;
+}
+
+h1{
+    text-align:center;
+    margin:auto;
+}
+ 
+h2{
+  text-align:center;
+  margin:auto;
+}
+
+#dutyTable {
+   /* max-width: 100%;
+    display:block;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;*/
+    margin-left:20px;
+    
+}
+
+table.dataTable tbody tr td {
+    padding-left:10px;
+    padding-bottom:0px;
+    padding-right:0px;
+    padding-top:0px;
+     
+}
+body{font-size: 10pt;}
+#container{
+    background:blue;
+    width:80%;
+    margin-left:15px;
+
+}
+
+
+ 
